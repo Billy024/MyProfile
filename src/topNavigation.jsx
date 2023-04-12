@@ -1,20 +1,21 @@
-import { Box, Circle, Flex, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import "./App.css";
 import Logo from "./logo";
 
 function TopNavigation() {
   return (
-    <Box
+    <Flex
+      display={"flex"}
       position={"relative"}
       bottom={"12px"}
       right={"12px"}
       alignItems={"center"}
     >
       <Logo />
-      <Text textColor={"black"} fontWeight={"bold"}>
+      {/* <Text textColor={"black"} fontWeight={"bold"}>
         hi
-      </Text>
-    </Box>
+      </Text> */}
+    </Flex>
   );
 }
 
